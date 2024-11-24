@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Droid+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: #000000;
+            background-image: url('Web assignment/images/BG.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .logo a {
+            font-family: 'Raleway', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #8aff00;
+            text-decoration: none;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            font-family: 'Raleway', sans-serif;
+            color: #f2f2f2;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            color: #8aff00;
+        }
+
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: #f2f2f2;
+        }
+
+        .center-content h2 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .center-content p {
+            font-family: 'Nunito', sans-serif;
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .connect-button {
+            background-color: #8aff00;
+            color: #000000;
+            font-family: 'Nunito', sans-serif;
+            font-size: 1rem;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .connect-button:hover {
+            background-color: #7cd200;
+        }
+
+        .social-media {
+            position: fixed;
+            bottom: 60px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-media a img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .social-media a:hover img {
+            opacity: 0.8;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer p {
+            font-size: 0.8rem;
+            color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">Home</a>
+        </div>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="professional-background.html">Professional Background</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="vlog.html">Vlog</a>
+            <a href="connect.html">Connect</a>
+        </nav>
+    </header>
+
+    <div class="center-content">
+        <h2>Welcome!</h2>
+        <p>Live. Write. Dream. Wise words of a professional copywriter!</p>
+        <a href="connect.html" class="connect-button">Let's Connect</a>
+    </div>
+
+    <div class="social-media">
+        <a href="https://www.instagram.com/yeab7/" target="_blank">
+            <img src="e:\3rd Year files\Web assignment\web icons\instagram.png" width="50" height="50">
+        </a>
+        <a href="https://www.linkedin.com/in/yeabsera-tilahun-14b99220a/" target="_blank">
+            <img src="e:\3rd Year files\Web assignment\web icons\linkedin.png" width="50" height="50">
+        </a>
+        <a href="https://t.me/Yab_23" target="_blank">
+            <img src="e:\3rd Year files\Web assignment\web icons\telegram.png" width="50" height="50">
+        </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Yeabsera Tilahun | All Rights Reserved</p>
+        <p>Designed and developed with passion</p>
+    </footer>
+</body>
+</html>
